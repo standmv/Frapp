@@ -13,15 +13,20 @@
         <activity android:name=".EditTextActivity" />
         <activity android:name=".AutoCompleteActivity" />
         <activity android:name=".ShowPassedData" />
-        <activity android:name=".ButtonActivity"></activity>
-        <activity android:name=".ImageButtonActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".ImageButtonActivity" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".DatePickerActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".RadioGroupActivity"></activity>
+        <activity android:name=".DateTimeActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
     </application>
 
 </manifest>

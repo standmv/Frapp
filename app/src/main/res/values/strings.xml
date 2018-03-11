@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Frapp</string>
+    <string name="title_activity_date_time_dialog">DateTimeDialog</string>
 </resources>
